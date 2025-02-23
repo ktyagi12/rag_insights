@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+*.egg-info/
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Log files
+logs/
+*.log
+
+# Cache and temporary files
+*.sqlite3
+*.db
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+
+# Test & coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+
+# FastAPI / Streamlit specific
+instance/
+.streamlit/
+/backend/.env
